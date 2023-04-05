@@ -8,10 +8,11 @@
 header {
     min-height: 150px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
     background-color: blanchedalmond;
-}
+padding-top: 20px;
+  }
 
 .logo-categorias {
     display: flex;
@@ -25,14 +26,16 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0.4rem;
+    flex-wrap: wrap;
 }
-
 .categoria { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 0.5rem;
-    width: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 8rem;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
 }
 .categoria a{
   text-decoration: none; color: #4b1e00;
@@ -40,10 +43,9 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
 .plato {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid violet;
@@ -54,8 +56,8 @@ header {
   transform: scale(1.2);
 }
 .slogan{
-    font-style: italic;
-    padding: 15px;
+    font-style: italic;color: #4b1e00;
+    padding: 15px 0px 0px 5px;
 }
 
 /*  Recetas.html - MAIN  */

@@ -19,19 +19,16 @@
 </head>
 
 <body> 
-    <header>
-        <div class="logo-categorias">
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../assets/img/sale_recetas_logo.png" height="70" alt="logo de sale recetas"> 
-                </a>
-            </div>
+
+        <!-- <div class="logo-categorias">
+            <a href="../index.html"> <img src="../assets/img/sale_recetas_logo.png" height="100px" alt="logo de sale recetas"> </a> 
 
             <div class="contenedor-categorias" >
                 <div class="categoria">
-                    <a href="../pages/recetas.html">
-                    <img src="../assets/img/almuerzo.jpeg" class="plato" alt="Almuerzo">
-                     Almuerzo y Cena</a>
+                    <a href="../pages/recetas.html"> 
+                        <img class="plato" src="../assets/img/almuerzo.jpeg"  alt="Almuerzo">
+                        Almuerzo y Cena
+                    </a>
                 </div>
                 <div class="categoria">
                     <a href="../pages/recetas.html">
@@ -60,12 +57,76 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" href="#">Características</a>
+                  <a class="nav-link" href="#">Precios</a>
+                  <a class="nav-link disabled">Deshabilitado</a>
+                </div>
+              </div>
+            </div>
+          </nav> -->
+    <header>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.htm"> <img class="logo" src="../assets/img/sale_recetas_logo.png" alt="logo de sale recetas"> </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <div class="categoria">
+                        <a href="../pages/recetas.html"> 
+                            <img class="plato" src="../assets/img/almuerzo.jpeg"  alt="Almuerzo">
+                            Almuerzo y Cena
+                        </a>
+                    </div>
+                    <div class="categoria">
+                        <a href="../pages/recetas.html">
+                        <img src="../assets/img/desayunos.jpeg" class="plato" alt="Desayuno">
+                         Desayuno</a>
+                    </div>
+                    <div class="categoria">
+                        <a href="../pages/recetas.html">
+                        <img src="../assets/img/Bebidas.webp" class="plato" alt="Bebidas">
+                        Bebidas</a>
+                    </div>
+                    <div class="categoria">
+                        <a href="../pages/recetas.html">
+                        <img src="../assets/img/entradas.jpeg" class="plato" alt="Entradas">
+                         Entradas</a>
+                    </div>
+                    <div class="categoria">
+                        <a href="../pages/recetas.html">
+                        <img src="../assets/img/Postres.webp" class="plato" alt="Postres">
+                         Postres</a>
+                    </div>
+                    <div class="categoria">
+                        <a href="../pages/recetas.html">
+                        <img src="../assets/img/Reposteria.jpeg" class="plato" alt="Reposteria">
+                        Reposteria</a>
+                    </div>
+                    </div>
+                  </div>
+
+            </div>
+          </nav>
 
          <p class="slogan">¡Hagamos del COCINAR algo simple y divertido!</p>
     </header>
 
-    <main>
+     <main>
         <section class="pais">
 
             <div class="titulo-cssgrid">
@@ -159,9 +220,8 @@
 
             <div class="col-md-6 foto-receta" >
                 <img class="imagen" src="https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/783/chimichurri.webp" alt="chimichurri">
-                <a href="#" class="like"> <i class="fa fa-heart" aria-hidden="true"></i>  </a>
-                <iframe width="500" height="315" src="https://www.youtube.com/embed/RKddEGt4hoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+                <!-- <iframe width="500" height="315" src="https://www.youtube.com/embed/RKddEGt4hoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                <iframe src="https://www.youtube.com/embed/RKddEGt4hoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             
             <div class="col-md-6 instrucciones" > 
@@ -190,8 +250,10 @@
         </div>
 
         <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cerrar</button>
+            <a href="#" class=""> <i class="fa fa-heart" aria-hidden="true"></i>  </a>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cerrar</button>
         </div>
+
       </div>
     </div>
   </div>

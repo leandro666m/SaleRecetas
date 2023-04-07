@@ -581,12 +581,7 @@ align-items: center;
   width: 95vw;
   left: calc(5vw / 2);
 }
-.modal-header {
-  display: flex;
-  flex-direction: row-reverse;
-  
 
-}
 
 .detail {
   width: 60%;

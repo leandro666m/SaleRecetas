@@ -13,9 +13,11 @@ header {
   background-color: blanchedalmond;
   padding-top: 20px;
 }
+
 .logo {
   max-height: 100px;
 }
+
 .categoria {
   display: flex;
   flex-direction: row;
@@ -25,6 +27,7 @@ header {
   align-content: center;
   justify-content: space-around;
 }
+
 .categoria a {
   text-decoration: none;
   color: #4b1e00;
@@ -32,6 +35,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
+
 .plato {
   width: 90px;
   height: 90px;
@@ -41,9 +45,11 @@ header {
   padding: 0.2rem;
   transition: 0.5s;
 }
+
 .plato:hover {
   transform: scale(1.2);
 }
+
 .slogan {
   font-style: italic;
   color: #4b1e00;
@@ -65,8 +71,7 @@ aside {
 }
 
 .logo-blog:hover {
-  filter: drop-shadow(0px 0px 10px rgb(247, 241, 152))
-    drop-shadow(0px 0px 20px rgb(247, 215, 152));
+  filter: drop-shadow(0px 0px 10px rgb(247, 241, 152)) drop-shadow(0px 0px 20px rgb(247, 215, 152));
 }
 
 /*  Recetas.html - MAIN  */
@@ -77,6 +82,7 @@ aside {
   padding: 30px;
   text-align: center;
 }
+
 .grid-cards {
   display: flex;
   justify-content: space-evenly;
@@ -86,6 +92,7 @@ aside {
   width: 90vw;
   margin: 5vw 5vw;
 }
+
 .micard {
   width: 300px;
   height: 300px;
@@ -95,6 +102,7 @@ aside {
   -webkit-box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
   -moz-box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
 }
+
 .imagen {
   height: 100%;
   width: 100%;
@@ -102,6 +110,7 @@ aside {
   object-fit: cover;
   object-position: center;
 }
+
 .dificultad {
   position: absolute;
   top: 17px;
@@ -112,6 +121,7 @@ aside {
   z-index: 2;
   font-weight: 700;
 }
+
 .boton-detalle {
   display: block;
   position: absolute;
@@ -130,6 +140,7 @@ aside {
   border-bottom-left-radius: 10px;
   z-index: 3;
 }
+
 .shadow {
   display: block;
   position: absolute;
@@ -138,14 +149,13 @@ aside {
   width: 100%;
   height: 5rem;
   z-index: 1;
-  background: linear-gradient(
-    0deg,
-    rgba(139, 34, 3, 0.58) 25%,
-    transparent 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(139, 34, 3, 0.58) 25%,
+      transparent 100%);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
 .shadow-facil {
   display: block;
   position: absolute;
@@ -154,11 +164,9 @@ aside {
   width: 60px;
   height: 2rem;
   z-index: 1;
-  background: linear-gradient(
-    273deg,
-    rgba(139, 34, 3, 0.58) 25%,
-    transparent 100%
-  );
+  background: linear-gradient(273deg,
+      rgba(139, 34, 3, 0.58) 25%,
+      transparent 100%);
 }
 
 /* Recetas.html -  MODAL detalle de receta */
@@ -166,13 +174,14 @@ aside {
   width: 100%;
   max-height: 250px;
   object-fit: cover;
-    object-position: center;
+  object-position: center;
   margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
   -webkit-box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
   -moz-box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
 }
+
 .like {
   position: absolute;
   top: 140px;
@@ -182,10 +191,12 @@ aside {
   color: rgb(187, 0, 0);
   filter: drop-shadow(0 0 5px #000000) drop-shadow(0 0 5px #fd6a6a);
 }
+
 .like:hover {
   transition: 0.5s;
   transform: scale(1.5);
 }
+
 .instrucciones {
   padding-left: 40px;
 }
@@ -197,13 +208,15 @@ aside {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .titulo-pais {
-  background: linear-gradient(0deg,    rgba(255, 255, 255, 1) 0%, #ffe9a6 50%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, #ffe9a6 50%, rgba(255, 255, 255, 1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
+
 .titulo-pais h3:nth-child(1) {
   font-size: 3em;
   color: #7a3100e0;
@@ -211,11 +224,12 @@ aside {
   padding: 30px;
   text-align: center;
 }
+
 .titulo-pais img:nth-child(2) {
   max-height: 400px;
 }
 
-.modal-footer > * {
+.modal-footer>* {
   margin-right: 1.5rem !important;
 }
 
@@ -228,16 +242,19 @@ footer {
   justify-content: space-evenly;
   margin-top: 55px;
 }
+
 .RRSS {
   display: flex;
   flex-flow: row wrap;
   column-gap: 1rem;
 }
+
 .App {
   display: flex;
   flex-flow: row wrap;
   column-gap: 1rem;
 }
+
 footer p,
 footer a {
   margin-top: 1rem;
@@ -248,16 +265,19 @@ footer a {
 .carousel-item {
   height: 550px;
 }
+
 .carousel-item img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 .sombra {
-    z-index: 1;
-    background: rgb(139 35 3 / 40%);
+  z-index: 1;
+  background: rgb(139 35 3 / 40%);
 }
+
 .carousel-caption h5,
 .carousel-caption p {
   color: rgb(255, 255, 255);
@@ -275,9 +295,11 @@ footer a {
   margin: 50px 150px;
   position: relative;
 }
+
 .martinez {
   position: relative;
 }
+
 .imagen1 {
   height: 100%;
   width: 100%;
@@ -285,6 +307,7 @@ footer a {
   object-fit: cover;
   object-position: center;
 }
+
 .imagen2 {
   height: 100%;
   width: 100%;
@@ -296,10 +319,12 @@ footer a {
   left: 0;
   z-index: 1;
 }
+
 .imagen2:hover {
   filter: blur(5px);
   transition: all 1s ease-in-out;
 }
+
 .texto-nosotros {
   font-size: smaller;
   margin: 50px 50px;
@@ -311,12 +336,15 @@ footer a {
   margin-bottom: 2.5rem;
   margin-left: 3.5rem;
 }
+
 .splide__track {
   height: 18rem;
 }
+
 .splide__arrow {
   top: 60% !important;
 }
+
 .plato-paises {
   width: 180px;
   height: 180px;
@@ -329,6 +357,7 @@ footer a {
   -webkit-box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
   -moz-box-shadow: 5px 4px 5px 0px rgba(189, 174, 174, 0.75);
 }
+
 .splide__slide {
   align-items: center;
   display: flex;
@@ -346,19 +375,22 @@ footer a {
   display: flex;
   flex-direction: row;
 }
+
 .card-post img {
   border-radius: 30px 0 0 30px;
   max-width: 40%;
   object-fit: cover;
   filter: drop-shadow(0px 0px 1px rgb(171, 170, 168));
 }
+
 .card-post img:hover {
-  filter: drop-shadow(0px 0px 10px rgb(247, 241, 152))
-    drop-shadow(0px 0px 20px rgb(247, 215, 152));
+  filter: drop-shadow(0px 0px 10px rgb(247, 241, 152)) drop-shadow(0px 0px 20px rgb(247, 215, 152));
 }
+
 .card-detail {
   padding: 1em;
 }
+
 .post-subtitulo {
   display: flex;
   flex-direction: row;
@@ -371,6 +403,7 @@ footer a {
 .detail-image {
   margin-right: 20px;
 }
+
 .detail-image img {
   width: 100%;
   max-height: 30vh;
@@ -378,204 +411,40 @@ footer a {
   object-position: 20px;
   border-radius: 10px;
 }
+
 .detail-image img:hover {
-  filter: drop-shadow(0px 0px 10px rgb(247, 241, 152))
-    drop-shadow(0px 0px 20px rgb(247, 215, 152));
+  filter: drop-shadow(0px 0px 10px rgb(247, 241, 152)) drop-shadow(0px 0px 20px rgb(247, 215, 152));
 }
+
 .detail {
   width: 60%;
   margin-right: 1rem;
   display: flex;
   flex-direction: column;
 }
+
 .author {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
 }
+
 .author-nombre {
   display: flex;
   flex-direction: row;
 }
+
 .categoria-receta {
   min-width: 100px;
   margin: 0 1rem 0px 1rem;
   padding: 0px 0.5rem 0px 0.5rem;
 }
 
-/*--- modal-body detalle ---
-@media screen and (max-width: 770px) {
-  /* .card-post {
-    flex-direction: column;
-    justify-items: center;
-    max-height: 100vh;
-  }
-  .card-post img {
-    border-radius: 30px 30px 0 0;
-    max-width: 100%;
-    height: 30vh;
-  } 
-  .modal-header {
-    display: flex;
-    flex-direction: column;
-  }
-  .detail {
-    width: 100%;
-  }
-}*/
-/*    -----------MEDIA QUERIES-----------    */
- /*@media screen and (max-width: 768px) {
-  .card-post {
-    margin: 2rem;
-    max-width: 1200px;
-    border: #414141 1px solid;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  } 
-  .card-post img {
-    border-radius: 30px 30px 0 0px;
-    max-width: 100%;
-    object-fit: cover;
-    filter: drop-shadow(0px 0px 1px rgb(171, 170, 168));
-  }
-
-  .plato-paises {
-    width: 120px;
-    height: 120px;
-  }
-} a min 391 max 768 */
-
-/*@media (min-width: 992px) {
-  .boton-detalle {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
-    font-weight: 400;
-    padding: 6% 2px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    z-index: 3;
-  }
-}    a min-width: 769px max-width: 1440px */
-
-/*@media (max-width: 991px) {
-  /* header 
-  .logo {
-    max-height: 50px;
-  }
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    background-color: blanchedalmond;
-    min-height: 76px;
-    padding-top: 0px;
-  }
-  .slogan {
-    display: none;
-  }
-  .plato {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 1px solid violet;
-    padding: 0.2rem;
-    margin: 0.1rem 2rem;
-    transition: 0.5s;
-  }
-  .categoria {
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-  }
-  .categoria a {
-    text-decoration: none;
-    color: #4b1e00;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-
-  /* footer 
-  .App {
-    display: none;
-  }
-
-  /* pais - grid 
-  .titulo-cssgrid {
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 1) 0%,
-      #ffe9a6 50%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    display: grid;
-    grid-template-columns: 50%;
-    grid-template-rows: 60px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  .foto-receta iframe {
-    width: auto;
-  }
-} de min-width: 391px a (max-width: 768px)*/
-
-/* @media (max-width: 1250px) {
-  .foto-receta iframe {
-    width: auto;
-  }
-} */
-
-/* media queries para el boton de blog ASIDE */
-/* @media screen and (max-width: 767px) {
-  aside {
-    top: 10px;
-    left: 5vw;
-    height: 30px;
-    width: 50px;
-  }
-}
-@media screen and (min-width: 768px) {
-  aside {
-    top: 10px;
-    left: 5vw;
-    height: 40px;
-    width: 80px;
-    }
-}
-@media screen and (min-width: 991px) {
-  aside {
-    top: 150px;
-    left: 85vw;
-    height: 60px;
-    width: 100px;
-    }
-}
- */
-
-
-
-
-
- /* nuevos media queries */
+/* nuevos media queries */
 /* mobile */
-@media screen and (max-width: 390px){
+@media screen and (max-width: 390px) {
+
   /* boton a blog */
   aside {
     top: 30px;
@@ -584,13 +453,15 @@ footer a {
     width: 50px;
   }
 
-   /* header */
-   .logo {
+  /* header */
+  .logo {
     max-height: 50px;
   }
-  .navbar>.container{
+
+  .navbar>.container {
     justify-content: flex-end !important;
   }
+
   header {
     display: flex;
     flex-wrap: wrap;
@@ -599,9 +470,11 @@ footer a {
     min-height: 76px;
     padding-top: 0px;
   }
+
   .slogan {
     display: none;
   }
+
   .plato {
     width: 40px;
     height: 40px;
@@ -612,6 +485,7 @@ footer a {
     margin: 0.1rem 2rem;
     transition: 0.5s;
   }
+
   .categoria {
     display: flex;
     align-content: center;
@@ -620,6 +494,7 @@ footer a {
     flex-direction: row;
     align-items: center;
   }
+
   .categoria a {
     text-decoration: none;
     color: #4b1e00;
@@ -633,18 +508,22 @@ footer a {
     width: 80px;
     height: 80px;
   }
+
   .splide__track {
     height: 11rem;
-}
+  }
 
   /* footer */
-  footer p, footer a {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
-}
-  .App{
+  footer p,
+  footer a {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .App {
     display: none;
   }
+
   .RRSS {
     display: flex;
     flex-direction: column;
@@ -672,20 +551,40 @@ footer a {
     flex-direction: column;
     max-height: 80vh;
   }
+
   .card-post img {
     border-radius: 30px 30px 0 0;
     max-width: 100%;
 
   }
+
+  .modal-header {
+    display: flex;
+    flex-direction: column !important;
+    padding: 0px;
+  }
+
+  .detail .h3 {
+    font-size: 1rem !important;
+  }
+
+  .author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 /* tablet */
 @media screen and (min-width: 391px) and (max-width: 768px) {
+
   /* viene de menores a 991 */
   /* header */
   .logo {
     max-height: 50px;
   }
+
   header {
     display: flex;
     flex-wrap: wrap;
@@ -694,9 +593,11 @@ footer a {
     min-height: 76px;
     padding-top: 0px;
   }
+
   .slogan {
     display: none;
   }
+
   .plato {
     width: 40px;
     height: 40px;
@@ -707,6 +608,7 @@ footer a {
     margin: 0.1rem 2rem;
     transition: 0.5s;
   }
+
   .categoria {
     display: flex;
     align-content: center;
@@ -715,6 +617,7 @@ footer a {
     flex-direction: row;
     align-items: center;
   }
+
   .categoria a {
     text-decoration: none;
     color: #4b1e00;
@@ -747,6 +650,7 @@ footer a {
     flex-direction: column;
     max-height: 80vh;
   }
+
   .card-post img {
     border-radius: 30px 30px 0 0;
     max-width: 100%;
@@ -769,120 +673,163 @@ footer a {
 
 }
 
-      /* medida 'intermedia' 
+/* medida 'intermedia' 
           para ajustar los modales al ancho
           y el header colapsado entre 768 y 991 */
-      @media screen and (min-width: 576px) and (max-width: 992px) {
-          /* modal de recetas - pais - blog */
-          .modal-dialog {
-            max-width: 85vw !important;
-          }
-          .foto-receta{
-            object-fit: cover;
-            object-position: center;
-          }
+@media screen and (min-width: 576px) and (max-width: 992px) {
 
-          /* header */
-            .logo {
-              max-height: 50px;
-            }
-            header {
-              display: flex;
-              flex-wrap: wrap;
-              flex-direction: row-reverse;
-              background-color: blanchedalmond;
-              min-height: 76px;
-              padding-top: 0px;
-            }
-            .slogan {
-              display: none;
-            }
-            .plato {
-              width: 40px;
-              height: 40px;
-              object-fit: cover;
-              border-radius: 50%;
-              border: 1px solid violet;
-              padding: 0.2rem;
-              margin: 0.1rem 2rem;
-              transition: 0.5s;
-            }
-            .categoria {
-              display: flex;
-              align-content: center;
-              justify-content: flex-end;
-              flex-wrap: wrap;
-              flex-direction: row;
-              align-items: center;
-            }
-            .categoria a {
-              text-decoration: none;
-              color: #4b1e00;
-              display: flex;
-              flex-direction: row-reverse;
-              align-items: center;
-            }
-      }
+  /* modal de recetas - pais - blog */
+  .modal-dialog {
+    max-width: 85vw !important;
+  }
+
+  .foto-receta {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* header */
+  .logo {
+    max-height: 50px;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color: blanchedalmond;
+    min-height: 76px;
+    padding-top: 0px;
+  }
+
+  .slogan {
+    display: none;
+  }
+
+  .plato {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid violet;
+    padding: 0.2rem;
+    margin: 0.1rem 2rem;
+    transition: 0.5s;
+  }
+
+  .categoria {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .categoria a {
+    text-decoration: none;
+    color: #4b1e00;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
 
 /* laptop */
- @media screen and (min-width: 769px) and (max-width: 1440px) {
-   
-
-    /* pais.html */
-    .titulo-pais {
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-content: center;
-      margin-top: 50px;
-    }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
 
 
-    /* blog.html */
-    .card-post {
-      margin: 0.5rem;
-      border: #414141 1px solid;
-      border-radius: 30px;
-      display: flex;
-      flex-direction: column;
-      max-height: 80vh;
-    }
-    .card-post img {
-      border-radius: 30px 30px 0 0;
-      max-width: 100%;
+  /* pais.html */
+  .titulo-pais {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+  }
 
-    }
 
-    /* index.html - splide paises */
-    .plato-paises {
-      width: 120px;
-      height: 120px;
-    }
+  /* blog.html */
+  .card-post {
+    margin: 0.5rem;
+    border: #414141 1px solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    max-height: 98vh;
+  }
 
-    /* boton a blog */
-    aside {
-      top: 30px;
-      left: 5vw;
-      height: 30px;
-      width: 50px;
-    }
-} 
-        @media screen and (min-width: 992px){
-            aside{
-              display: none;
-            }
-            .slogan{
-              display: flex;
-              flex-direction: row;
-              align-items: baseline;
-            }
-            .img-logo-blog{
-              width: 4rem;
-            }
-        }
+  .card-post img {
+    border-radius: 30px 30px 0 0;
+    max-width: 100%;
+
+  }
+
+  /* index.html - splide paises */
+  .plato-paises {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* boton a blog */
+  aside {
+    top: 30px;
+    left: 5vw;
+    height: 30px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  aside {
+    display: none;
+  }
+
+  .slogan {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .img-logo-blog {
+    width: 4rem;
+  }
+
+  /*---BLOG-------------*/
+  .card-post {
+    margin: 2rem;
+    max-width: 1200px;
+    max-height: 50vh;
+    border: #414141 1px solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-post img {
+    border-radius: 30px 0 0 30px;
+    max-width: 40%;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 1px rgb(171, 170, 168));
+  }
+
+  .card-post img:hover {
+    filter: drop-shadow(0px 0px 10px rgb(247, 241, 152)) drop-shadow(0px 0px 20px rgb(247, 215, 152));
+  }
+
+  .card-detail {
+    padding: 1em;
+  }
+
+  .post-subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: baseline;
+  }
+}
 
 
 /* wide screen */
-@media screen and (min-width: 1441px) and (max-width: 1680px){
-
-}
+@media screen and (min-width: 1441px) and (max-width: 1680px) {}
